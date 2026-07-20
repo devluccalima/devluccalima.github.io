@@ -17,6 +17,9 @@
 
 :root {
   color-scheme: dark;
+  --color-dot: var(--color-border);
+  --glow-alpha: 18%;
+  --color-scrollbar-thumb: var(--color-border);
 }
 
 html.light {
@@ -24,11 +27,15 @@ html.light {
   --color-bg: #F8FAFC;
   --color-surface: #FFFFFF;
   --color-surface-hover: #F1F5F9;
-  --color-border: #E2E8F0;
+  --color-border: #DDE3EA;
   --color-text: #0F172A;
   --color-text-muted: #64748B;
   --color-primary: #2563EB;
   --color-primary-hover: #1D4ED8;
+  /* these need MORE contrast than the dark equivalents, not the same value */
+  --color-dot: #CBD5E1;
+  --glow-alpha: 30%;
+  --color-scrollbar-thumb: #CBD5E1;
 }
 
 * {
@@ -41,18 +48,18 @@ body {
   font-family: var(--font-sans);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
+ 
 /* Vercel-style dot grid background */
 .bg-dot-grid {
   background-image: radial-gradient(circle, var(--color-border) 1px, transparent 1px);
   background-size: 24px 24px;
 }
-
+ 
 ::selection {
   background-color: var(--color-primary);
   color: #ffffff;
 }
-
+ 
 ::-webkit-scrollbar {
   width: 10px;
 }
