@@ -26,22 +26,28 @@ export default function About() {
           className="md:col-span-3 space-y-5 text-text-muted leading-relaxed"
         >
           <p>
-            Sou formado em Análise e Desenvolvimento de Sistemas pelo IESB e comecei minha trajetória na área de TI através do suporte técnico, o que me deu uma base
+            Formado em Análise e Desenvolvimento de Sistemas pelo Instituto de Educação Superior de Brasília, 
+            e iniciei minha trajetória na área de TI através do suporte técnico, o que me deu uma base
             sólida sobre como sistemas realmente funcionam no dia a dia de uma empresa.
             Foi ali que nasceu meu interesse por desenvolvimento: entender um problema de perto e depois construir a solução para ele.
           </p>
           <p>
-            Hoje atuo como Técnico de TI Jr., onde fui responsável por desenvolver do zero o 
-            Sistema de Controle de Combustível (SCC) — uma aplicação full stack em produção que substituiu um processo manual 
-            em planilhas pela gestão financeira e operacional de frotas corporativas. Gosto especialmente de 
-            arquitetura de software, boas práticas (SOLID, Clean Architecture) e de automatizar processos que antes tomavam horas manuais.
+            Atualmente atuo na área de suporte, conciliando atividades de infraestrutura e desenvolvimento de sistemas. 
+            Fui responsável por projetar e desenvolver o Sistema de Controle de Combustível (SCC) desde sua concepção, criando uma
+            aplicação Full Stack hoje em produção que substituiu processos manuais baseados em planilhas por uma solução
+            completa para a gestão financeira e operacional de frotas corporativas.
+          </p>
+          <p>
+            Tenho grande interesse por arquitetura de software, boas práticas de desenvolvimento, Clean Architecture, 
+            SOLID e construção de aplicações escaláveis. Gosto de desenvolver sistemas que gerem impacto real, automatizando processos,
+            aumentando a produtividade e entregando valor para as pessoas que utilizam a solução.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-4 pt-4">
             <div className="flex items-start gap-3 bg-surface border border-border rounded-xl p-4">
               <Wrench size={18} className="text-primary mt-0.5 shrink-0" />
               <div>
-                <p className="text-sm font-medium text-text">Técnico de TI Jr.</p>
+                <p className="text-sm font-medium text-text">Técnico de TI</p>
                 <p className="text-xs text-text-muted mt-1">
                   Atuação com soluções internas, automação e infraestrutura.
                 </p>

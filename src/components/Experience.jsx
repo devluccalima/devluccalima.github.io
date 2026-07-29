@@ -40,8 +40,8 @@ export default function Experience() {
             </div>
             <p className="text-sm text-text-muted leading-relaxed mb-4">
               {/* Edite este parágrafo com detalhes específicos da sua atuação. */}
-              Atuação no suporte e desenvolvimento de soluções internas, com foco
-              em automação de processos e manutenção de infraestrutura.
+              Atuação nas áreas de suporte técnico e desenvolvimento de soluções internas, 
+              com foco em automação de processos, integração de sistemas e infraestrutura de TI.
             </p>
             <ul className="space-y-2">
               {[
