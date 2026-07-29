@@ -27,7 +27,7 @@ export default function About() {
         >
           <p>
             Formado em Análise e Desenvolvimento de Sistemas pelo Instituto de Educação Superior de Brasília, 
-            e iniciei minha trajetória na área de TI através do suporte técnico, o que me deu uma base
+            iniciei minha trajetória na área de TI através do suporte técnico, o que me deu uma base
             sólida sobre como sistemas realmente funcionam no dia a dia de uma empresa.
             Foi ali que nasceu meu interesse por desenvolvimento: entender um problema de perto e depois construir a solução para ele.
           </p>

@@ -32,7 +32,7 @@ export default function Experience() {
           <div>
             <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-1">
               <h3 className="text-base font-semibold text-text">
-                Técnico de TI Jr.
+                Técnico de TI
               </h3>
               <span className="font-mono text-xs text-text-muted">
                 PaulOOctavio
